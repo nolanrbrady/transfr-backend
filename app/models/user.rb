@@ -1,6 +1,7 @@
 class User < ApplicationRecord
   has_many :transactions
   has_many :inventories
+  has_many :coupons
   
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
